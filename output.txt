@@ -1,0 +1,3 @@
+Binomial[2 e, m] Binomial[-1 + e + k, 
+  e] HypergeometricPFQ[{-(1/2) + e + k, -m, -2 e + m}, {1/2 - e, k}, 
+  1]
