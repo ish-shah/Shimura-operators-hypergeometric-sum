@@ -12,3 +12,5 @@ $$\binom{2e}{m}\binom{-1+e+k}{e}{}_3F_2\left(-\frac{1}{2}+e+k,-m,-2e+m;\frac{1}{
 where ${}_3F_2$ is a [generalized hypergeometric function](https://en.wikipedia.org/wiki/Generalized_hypergeometric_function). Note that by definition such functions are invariant under permutation of the upper parameters and permutation of the lower parameters, so we can write
 
 $${}_3F_2\left(-\frac{1}{2}+e+k,-m,-2e+m;\frac{1}{2}-e,k;1\right)={}_3F_2\left(-2e+m,k+e-\frac{1}{2},-m;k,-e+\frac{1}{2};1\right).$$
+
+The equivalence of this with the RHS of our first equation here is a consequence of the [Saalschütz theorem](https://mathworld.wolfram.com/SaalschuetzsTheorem.html).
