@@ -1,4 +1,4 @@
-# Hypergeometric sum for studying Shimura operators
+# Hypergeometric sum identity for studying Shimura operators
 Code and output to compute a sum from an in-progress paper.
 
 We use Wolfram Language code to show that 
