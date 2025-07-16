@@ -1,0 +1,122 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      3413,        112]
+NotebookOptionsPosition[      2924,         95]
+NotebookOutlinePosition[      3329,        111]
+CellTagsIndexPosition[      3286,        108]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"ClearAll", "[", 
+   RowBox[{"e", ",", "k", ",", "m", ",", "j", ",", "symbolicSum"}], "]"}], 
+  "\n"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"symbolicSum", "=", 
+    RowBox[{"Sum", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"-", "4"}], ")"}], "^", "j"}], "*", 
+       RowBox[{"Binomial", "[", 
+        RowBox[{
+         RowBox[{"k", "+", "e", "-", "1"}], ",", 
+         RowBox[{"e", "-", "j"}]}], "]"}], "*", 
+       RowBox[{"Binomial", "[", 
+        RowBox[{
+         RowBox[{"k", "+", "e", "+", "j", "-", 
+          RowBox[{"3", "/", "2"}]}], ",", "j"}], "]"}], "*", 
+       RowBox[{"Binomial", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"2", " ", "e"}], "-", 
+          RowBox[{"2", " ", "j"}]}], ",", 
+         RowBox[{"m", "-", "j"}]}], "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"j", ",", "0", ",", "m"}], "}"}]}], "]"}]}], ";"}], 
+  "\n"}], "\[IndentingNewLine]", 
+ RowBox[{"FullSimplify", "[", 
+  RowBox[{"symbolicSum", ",", 
+   RowBox[{"Assumptions", "->", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"e", "\[Element]", "Integers"}], ",", 
+      RowBox[{"m", "\[Element]", "Integers"}], ",", 
+      RowBox[{"e", ">=", "0"}], ",", 
+      RowBox[{"k", ">=", "0"}], ",", 
+      RowBox[{"m", ">=", "0"}]}], "}"}]}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.9616801866476345`*^9, 3.9616801866476345`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"310cb374-503f-3f46-bfce-5a7d49e1a5df"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Binomial", "[", 
+   RowBox[{
+    RowBox[{"2", " ", "e"}], ",", "m"}], "]"}], " ", 
+  RowBox[{"Binomial", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "1"}], "+", "e", "+", "k"}], ",", "e"}], "]"}], " ", 
+  RowBox[{"HypergeometricPFQ", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", 
+        FractionBox["1", "2"]}], "+", "e", "+", "k"}], ",", 
+      RowBox[{"-", "m"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "2"}], " ", "e"}], "+", "m"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       FractionBox["1", "2"], "-", "e"}], ",", "k"}], "}"}], ",", "1"}], 
+   "]"}]}]], "Output",
+ CellChangeTimes->{3.961680221353531*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"31cb7c6f-f106-9542-8992-3d14d06ab98a"]
+}, Open  ]]
+},
+WindowSize->{569.25, 422.25},
+WindowMargins->{{249, Automatic}, {18, Automatic}},
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"e52e9dda-c8e2-6e43-8a94-eb75a4417cba"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 1515, 42, 180, "Input",ExpressionUUID->"310cb374-503f-3f46-bfce-5a7d49e1a5df"],
+Cell[2094, 66, 814, 26, 85, "Output",ExpressionUUID->"31cb7c6f-f106-9542-8992-3d14d06ab98a"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
