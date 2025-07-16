@@ -1,9 +1,9 @@
 # Shimura-operators-hypergeometric-sum
 Code and output to compute a sum from an in-progress paper.
 
-We write code in the Wolfram Language to compute the sum
+We use Wolfram Language code to show that 
 
-$$\sum_{j=0}^m(-4)^j\binom{k+e-1}{e-j}\binom{k+e+j-3/2}{j}\binom{2e-2j}{m-j}=(-1)^m\frac{\binom{k+e-1}{e}\binom{k+2e-1}{2e-m}\binom{k+2e-1}{m}}{\binom{k+2e-1}{2e}}$$
+$$\sum_{j=0}^m(-4)^j\binom{k+e-1}{e-j}\binom{k+e+j-3/2}{j}\binom{2e-2j}{m-j}=(-1)^m\frac{\binom{k+e-1}{e}\binom{k+2e-1}{2e-m}\binom{k+2e-1}{m}}{\binom{k+2e-1}{2e}},$$
 
 where $e$ and $m$ are nonnegative integers with $k$ a positive real number. The output we obtain from running the code is
 
