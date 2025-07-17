@@ -13,4 +13,4 @@ where ${}_3F_2$ is a [generalized hypergeometric function](https://en.wikipedia.
 
 $${}_3F_2\left(-\frac{1}{2}+e+k,-m,-2e+m;\frac{1}{2}-e,k;1\right)={}_3F_2\left(-2e+m,k+e-\frac{1}{2},-m;k,-e+\frac{1}{2};1\right).$$
 
-The equivalence of this with the RHS of our first equation here is a consequence of the [Saalschütz theorem](https://mathworld.wolfram.com/SaalschuetzsTheorem.html).
+The equivalence of this with the RHS of our first equation here is a consequence of the [Saalschütz theorem](https://mathworld.wolfram.com/SaalschuetzsTheorem.html), as explained in our paper.
