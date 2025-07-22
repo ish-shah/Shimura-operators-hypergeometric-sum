@@ -1,5 +1,5 @@
 # Hypergeometric sum identity for studying Shimura operators
-Some code and output to compute a sum from an in-progress paper.
+Some code and output to compute a sum from the paper *Shimura lifts of nearly holomorphic modular forms* (Abby Linscott, Tianyu Ni, Ish Shah, Hui Xue).
 
 We use Wolfram Language code to show that 
 
